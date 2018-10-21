@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{68935561-146A-092C-1CE2-388EF65D57EF}|">
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/scripts/WanderingAI.cs">
+    <Files>
+      <File FileName="Assets/scripts/RayShooter.cs" Line="35" Column="30" />
+      <File FileName="Assets/scripts/MouseLook.cs" Line="42" Column="10" />
+      <File FileName="Assets/scripts/FPSInput.cs" Line="27" Column="2" />
+      <File FileName="Assets/scripts/ReactiveTarget.cs" Line="29" Column="2" />
+      <File FileName="Assets/scripts/WanderingAI.cs" Line="19" Column="19" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
