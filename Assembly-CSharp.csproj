@@ -59,12 +59,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\scripts\FireBall.cs" />
     <Compile Include="Assets\scripts\FPSInput.cs" />
-    <Compile Include="Assets\scripts\HelloWorld.cs" />
     <Compile Include="Assets\scripts\MouseLook.cs" />
+    <Compile Include="Assets\scripts\PlayerCharacter.cs" />
     <Compile Include="Assets\scripts\RayShooter.cs" />
     <Compile Include="Assets\scripts\ReactiveTarget.cs" />
-    <Compile Include="Assets\scripts\Spin.cs" />
+    <Compile Include="Assets\scripts\SceneController.cs" />
+    <Compile Include="Assets\scripts\WanderingAI.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>/Users/david/First_UnityProject/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>

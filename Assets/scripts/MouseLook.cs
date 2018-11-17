@@ -40,16 +40,16 @@ public class MouseLook : MonoBehaviour {
 
             transform.localEulerAngles = new Vector3(_rotationX, rotationY, 0);
         }
-        else {
-            //Комбинированный поворот
-            _rotationX -= Input.GetAxis("Mouse Y") * sensitivityVert;
+        //else {
+        //    //Комбинированный поворот
+        //    _rotationX -= Input.GetAxis("Mouse Y") * sensitivityVert;
 
-            _rotationX = Mathf.Clamp(_rotationX, minVert, maxVert);
+        //    _rotationX = Mathf.Clamp(_rotationX, minVert, maxVert);
 
-            float delta = Input.GetAxis("Mouse X") * sensitivityHor;
-            float rotationY = transform.localEulerAngles.y + delta;
+        //    float delta = Input.GetAxis("Mouse X") * sensitivityHor;
+        //    float rotationY = transform.localEulerAngles.y + delta;
 
-            transform.localEulerAngles = new Vector3(_rotationX, rotationY, 0);
-        }
+        //    transform.localEulerAngles = new Vector3(_rotationX, rotationY, 0);
+        //}
 	}
 }
